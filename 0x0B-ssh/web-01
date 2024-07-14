@@ -2,8 +2,8 @@
 # server-01 login
 
 
-eval $("ssh agent")
+eval $("ssh-agent")
 ssh-add ~/.ssh/school
 
 
-ssh ubuntu@52.3.247.95
+ssh ubuntu@52.207.208.55
